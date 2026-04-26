@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HipotecaPath México 2026 — Calculadora Hipotecaria, CAT y Comparativa de Bancos</title>
+<meta name="description" content="Calculadora hipotecaria México 2026: simula tu mensualidad, compara tasas reales de BBVA, Banorte, HSBC, Santander, Scotiabank, Inbursa, Infonavit y Fovissste. Calcula CAT, gastos notariales, ISAI y tabla de amortización completa.">
+<meta name="keywords" content="calculadora hipotecaria, crédito hipotecario México, CAT hipoteca, tasa hipotecaria 2026, BBVA Banorte HSBC Santander, Infonavit Fovissste, simulador hipoteca">
+<meta name="author" content="HipotecaPath">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://hipotecapath.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="HipotecaPath México 2026 — Calculadora Hipotecaria y Comparativa de Bancos">
+<meta property="og:description" content="Compara tasas reales de los principales bancos hipotecarios en México y calcula tu mensualidad, CAT y gastos asociados.">
+<meta property="og:locale" content="es_MX">
+<meta property="og:url" content="https://hipotecapath.com/">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HipotecaPath México — Calculadora Hipotecaria 2026">
+<meta name="twitter:description" content="Calcula tu hipoteca y compara tasas reales de bancos mexicanos en 2026.">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUB_ID" crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-YOUR_PUB_ID">
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "HipotecaPath",
+  "description": "Calculadora hipotecaria mexicana con comparativa de tasas reales de bancos y cálculo de CAT, gastos notariales e ISAI.",
+  "url": "https://hipotecapath.com/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "inLanguage": "es-MX",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "MXN"
+  },
+  "audience": {
+    "@type": "Audience",
+    "geographicArea": {
+      "@type": "Country",
+      "name": "México"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la mejor tasa hipotecaria en México en 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En 2026 las tasas fijas más bajas las ofrecen Banorte (desde 9.15%), Banregio (desde 9.25%) e Inbursa (desde 9.50%), seguidos de Afirme, Mifel, Santander y Scotiabank en el rango de 9.60% a 10.50%. BBVA y HSBC suelen ubicarse entre 10.60% y 11.20%. La mejor tasa para ti depende de tu enganche, ingresos e historial en buró de crédito."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el CAT y por qué es más importante que la tasa de interés?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El CAT (Costo Anual Total) es un indicador estandarizado por Banxico que incluye la tasa de interés más todas las comisiones, seguros de vida y daños, gastos de administración y otros cargos. Un crédito con tasa de 9.5% puede tener un CAT real de 13% por comisiones altas. Siempre compara el CAT, no solo la tasa nominal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto presta Infonavit en 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El monto máximo del crédito tradicional Infonavit en 2026 es de $2,830,672 pesos para trabajadores con ingresos superiores a $86,000 mensuales. La tasa fija es de 10.45% y el plazo máximo es de 30 años, con la restricción de que la edad del solicitante más el plazo no exceda 70 años para hombres y 75 años para mujeres."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto debo tener ahorrado además del enganche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Además del enganche (10%-20% del valor del inmueble), debes contar con entre 8% y 12% adicional para cubrir gastos de cierre: ISAI (2%-5% según estado), gastos notariales (3%-7%), avalúo ($3,000 a $8,000), comisión por apertura (0%-1.5%) y seguros de vida y daños del primer año."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Conviene tasa fija o variable en una hipoteca mexicana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En México la mayoría de los expertos recomiendan tasa fija porque ofrece certeza durante todo el plazo del crédito (que puede ser de 20 o 30 años). La tasa variable se ajusta con la TIIE y aunque puede iniciar más baja, sube cuando el Banco de México eleva la tasa de referencia, lo cual encarece la mensualidad."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Guía completa del crédito hipotecario en México 2026",
+  "description": "Todo sobre tasas, CAT, bancos, Infonavit, Fovissste y gastos asociados a una hipoteca en México.",
+  "author": {
+    "@type": "Organization",
+    "name": "HipotecaPath"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HipotecaPath"
+  },
+  "datePublished": "2026-04-26",
+  "dateModified": "2026-04-26",
+  "inLanguage": "es-MX"
+}
+</script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --primary:#1e3a5f;
+  --primary-dark:#142849;
+  --primary-light:#2c5282;
+  --accent:#d4a843;
+  --accent-dark:#b8902f;
+  --success:#0e7c45;
+  --danger:#c53030;
+  --bg:#f7f8fa;
+  --card:#ffffff;
+  --text:#1a202c;
+  --text-light:#4a5568;
+  --text-muted:#718096;
+  --border:#e2e8f0;
+  --shadow:0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.04);
+  --shadow-lg:0 10px 25px rgba(0,0,0,0.08),0 4px 10px rgba(0,0,0,0.04);
+}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Inter',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:16px}
+
+/* Header */
+header{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:white;padding:0;position:sticky;top:0;z-index:100;box-shadow:var(--shadow-lg)}
+.nav{max-width:1200px;margin:0 auto;padding:1rem 1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.logo{display:flex;align-items:center;gap:.6rem;font-weight:800;font-size:1.4rem;letter-spacing:-0.5px}
+.logo-icon{width:36px;height:36px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--primary-dark);font-weight:900;font-size:1.1rem}
+nav ul{list-style:none;display:flex;gap:1.5rem;flex-wrap:wrap}
+nav a{color:rgba(255,255,255,0.9);text-decoration:none;font-weight:500;font-size:.95rem;transition:color .2s}
+nav a:hover{color:var(--accent)}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:white;padding:3rem 1.5rem 5rem;text-align:center}
+.hero h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;letter-spacing:-1px;margin-bottom:1rem;max-width:900px;margin-left:auto;margin-right:auto}
+.hero p{font-size:clamp(1rem,2vw,1.15rem);opacity:0.92;max-width:700px;margin:0 auto;font-weight:400}
+.hero-badge{display:inline-block;background:rgba(212,168,67,0.15);color:var(--accent);padding:.4rem 1rem;border-radius:20px;font-size:.85rem;font-weight:600;margin-bottom:1.5rem;border:1px solid rgba(212,168,67,0.3)}
+
+/* Container */
+.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+
+/* Calculator */
+.calculator-wrap{margin-top:-3rem;margin-bottom:3rem}
+.calculator{background:var(--card);border-radius:16px;box-shadow:var(--shadow-lg);overflow:hidden}
+.calc-header{background:var(--primary);color:white;padding:1.25rem 1.5rem;font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:.6rem}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+@media (max-width:850px){.calc-grid{grid-template-columns:1fr}}
+.calc-inputs{padding:2rem 1.5rem;border-right:1px solid var(--border)}
+@media (max-width:850px){.calc-inputs{border-right:none;border-bottom:1px solid var(--border)}}
+.calc-results{padding:2rem 1.5rem;background:#fafbfc}
+
+.input-group{margin-bottom:1.25rem}
+.input-group label{display:block;font-weight:600;margin-bottom:.4rem;color:var(--text);font-size:.9rem}
+.input-group label .hint{font-weight:400;color:var(--text-muted);font-size:.8rem;margin-left:.4rem}
+.input-wrap{position:relative}
+.input-wrap .currency{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--text-muted);font-weight:500}
+.input-wrap input,.input-wrap select{width:100%;padding:.75rem 1rem;border:2px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:white;transition:border-color .2s}
+.input-wrap input.has-currency{padding-left:2rem}
+.input-wrap input:focus,.input-wrap select:focus{outline:none;border-color:var(--primary-light)}
+.input-wrap .suffix{position:absolute;right:.9rem;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:.85rem}
+
+.range-row{display:flex;align-items:center;gap:.75rem}
+.range-row input[type=range]{flex:1;accent-color:var(--primary)}
+.range-row .range-val{min-width:60px;text-align:right;font-weight:600;color:var(--primary)}
+
+.btn{display:inline-block;padding:.85rem 1.5rem;border-radius:8px;border:none;cursor:pointer;font-weight:600;font-size:1rem;transition:all .2s;font-family:inherit}
+.btn-primary{background:var(--primary);color:white;width:100%;margin-top:.5rem}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-secondary{background:transparent;color:var(--primary);border:2px solid var(--primary)}
+.btn-secondary:hover{background:var(--primary);color:white}
+
+/* Result cards */
+.result-main{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-light) 100%);color:white;padding:1.5rem;border-radius:12px;margin-bottom:1rem;text-align:center}
+.result-main .label{font-size:.85rem;opacity:0.9;margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.5px}
+.result-main .value{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:800;letter-spacing:-1px}
+.result-main .sub{font-size:.85rem;opacity:0.85;margin-top:.4rem}
+
+.result-row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.75rem}
+.result-card{background:white;border:1px solid var(--border);padding:1rem;border-radius:8px}
+.result-card .label{font-size:.78rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:.3px}
+.result-card .value{font-size:1.25rem;font-weight:700;color:var(--text);margin-top:.25rem}
+.result-card .value.accent{color:var(--accent-dark)}
+.result-card .value.danger{color:var(--danger)}
+
+/* Section */
+section{padding:3rem 0}
+section h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-bottom:.5rem;letter-spacing:-0.5px;color:var(--primary)}
+section .lead{color:var(--text-light);font-size:1.05rem;margin-bottom:2rem;max-width:800px}
+
+/* Charts */
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+@media (max-width:850px){.chart-grid{grid-template-columns:1fr}}
+.chart-card{background:white;border-radius:12px;padding:1.5rem;box-shadow:var(--shadow);border:1px solid var(--border)}
+.chart-card h3{font-size:1.05rem;margin-bottom:1rem;color:var(--primary)}
+.chart-card .chart-container{position:relative;height:280px}
+
+/* Banks comparison */
+.banks-table-wrap{overflow-x:auto;background:white;border-radius:12px;box-shadow:var(--shadow);border:1px solid var(--border)}
+.banks-table{width:100%;border-collapse:collapse;min-width:780px}
+.banks-table thead{background:var(--primary);color:white}
+.banks-table th{padding:.9rem 1rem;text-align:left;font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:.3px}
+.banks-table td{padding:1rem;border-bottom:1px solid var(--border);font-size:.95rem}
+.banks-table tr:last-child td{border-bottom:none}
+.banks-table tr:hover{background:var(--bg)}
+.bank-name{font-weight:700;color:var(--primary)}
+.bank-product{font-size:.82rem;color:var(--text-muted);font-weight:400;display:block}
+.tasa-badge{display:inline-block;background:#e6fffa;color:var(--success);padding:.25rem .65rem;border-radius:6px;font-weight:700;font-size:.92rem;font-variant-numeric:tabular-nums}
+.cat-badge{display:inline-block;background:#fef5e7;color:var(--accent-dark);padding:.25rem .65rem;border-radius:6px;font-weight:600;font-size:.92rem;font-variant-numeric:tabular-nums}
+.disclaimer-small{font-size:.78rem;color:var(--text-muted);margin-top:.75rem;font-style:italic}
+
+/* Amortization */
+.amort-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:.75rem}
+.amort-table-wrap{overflow-x:auto;max-height:500px;background:white;border-radius:12px;box-shadow:var(--shadow);border:1px solid var(--border)}
+.amort-table{width:100%;border-collapse:collapse;min-width:600px}
+.amort-table thead{background:var(--primary);color:white;position:sticky;top:0}
+.amort-table th{padding:.75rem;text-align:right;font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.3px}
+.amort-table th:first-child{text-align:center}
+.amort-table td{padding:.6rem .75rem;text-align:right;font-size:.9rem;border-bottom:1px solid var(--border);font-variant-numeric:tabular-nums}
+.amort-table td:first-child{text-align:center;font-weight:600;color:var(--primary)}
+
+/* AdSense slots */
+.ad-slot{margin:2.5rem 0;padding:1rem;text-align:center;min-height:90px;background:#fafbfc;border:1px dashed var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center}
+.ad-slot ins{display:block}
+
+/* Articles */
+.articles-section{background:white;padding:3rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.article{margin-bottom:3rem;max-width:840px;margin-left:auto;margin-right:auto}
+.article h2{font-size:clamp(1.4rem,2.5vw,1.85rem);color:var(--primary);margin-bottom:.75rem;letter-spacing:-0.3px}
+.article h3{font-size:1.2rem;color:var(--primary-light);margin:1.5rem 0 .5rem;font-weight:700}
+.article p{margin-bottom:1rem;color:var(--text);line-height:1.75}
+.article ul,.article ol{margin:0 0 1rem 1.25rem;color:var(--text)}
+.article li{margin-bottom:.4rem;line-height:1.7}
+.article strong{color:var(--primary);font-weight:700}
+.article-meta{color:var(--text-muted);font-size:.85rem;margin-bottom:1rem;display:flex;gap:1rem;flex-wrap:wrap}
+.article blockquote{border-left:4px solid var(--accent);padding:.75rem 1rem;background:#fef5e7;margin:1rem 0;font-style:italic;color:var(--text-light);border-radius:0 6px 6px 0}
+
+/* Costs calculator */
+.costs-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media (max-width:850px){.costs-grid{grid-template-columns:1fr}}
+.cost-list{background:white;border-radius:12px;padding:1.5rem;box-shadow:var(--shadow);border:1px solid var(--border)}
+.cost-list h3{color:var(--primary);margin-bottom:1rem}
+.cost-row{display:flex;justify-content:space-between;align-items:center;padding:.65rem 0;border-bottom:1px dashed var(--border)}
+.cost-row:last-child{border-bottom:none}
+.cost-row .name{font-weight:500}
+.cost-row .name small{display:block;color:var(--text-muted);font-weight:400;font-size:.78rem}
+.cost-row .amount{font-weight:700;color:var(--primary);font-variant-numeric:tabular-nums}
+.cost-total{display:flex;justify-content:space-between;padding-top:1rem;margin-top:.5rem;border-top:2px solid var(--primary);font-size:1.1rem;font-weight:800;color:var(--primary)}
+
+/* FAQ */
+.faq-item{background:white;border:1px solid var(--border);border-radius:8px;margin-bottom:.75rem;overflow:hidden}
+.faq-q{padding:1rem 1.25rem;font-weight:600;color:var(--primary);cursor:pointer;display:flex;justify-content:space-between;align-items:center;list-style:none}
+.faq-q::-webkit-details-marker{display:none}
+.faq-q::after{content:'+';font-size:1.5rem;color:var(--accent);font-weight:300;transition:transform .2s}
+details[open] .faq-q::after{transform:rotate(45deg)}
+.faq-a{padding:0 1.25rem 1.25rem;color:var(--text-light);line-height:1.7}
+
+/* Footer */
+footer{background:var(--primary-dark);color:rgba(255,255,255,0.85);padding:2.5rem 0 1.5rem;margin-top:3rem}
+footer .container{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2rem}
+@media (max-width:768px){footer .container{grid-template-columns:1fr}}
+footer h4{color:white;margin-bottom:1rem;font-size:1rem}
+footer ul{list-style:none}
+footer li{margin-bottom:.5rem}
+footer a{color:rgba(255,255,255,0.75);text-decoration:none;font-size:.92rem;transition:color .2s}
+footer a:hover{color:var(--accent)}
+.disclaimer{background:rgba(0,0,0,0.2);padding:1rem;border-radius:8px;font-size:.82rem;line-height:1.6;margin-top:1.5rem;border-left:3px solid var(--accent)}
+.copyright{text-align:center;padding-top:1.5rem;margin-top:1.5rem;border-top:1px solid rgba(255,255,255,0.1);font-size:.85rem;color:rgba(255,255,255,0.6)}
+
+/* Utilities */
+.text-center{text-align:center}
+.mt-2{margin-top:1rem}
+.mt-3{margin-top:1.5rem}
+.mb-3{margin-bottom:1.5rem}
+.no-print{}
+@media print{.ad-slot,header,footer,.no-print{display:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">
+      <div class="logo-icon">H</div>
+      <span>HipotecaPath<span style="color:var(--accent);font-weight:400">.mx</span></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#calculadora">Calculadora</a></li>
+        <li><a href="#bancos">Bancos</a></li>
+        <li><a href="#amortizacion">Amortización</a></li>
+        <li><a href="#guias">Guías</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="hero-badge">📊 Tasas actualizadas Abril 2026</span>
+    <h1>Calculadora Hipotecaria México 2026</h1>
+    <p>Simula tu mensualidad, compara tasas reales de los principales bancos mexicanos y conoce el verdadero costo de tu crédito hipotecario, incluyendo CAT, gastos notariales e ISAI.</p>
+  </div>
+</section>
+
+<div class="container calculator-wrap" id="calculadora">
+  <div class="calculator">
+    <div class="calc-header">
+      🏠 Simulador de crédito hipotecario
+    </div>
+    <div class="calc-grid">
+      <div class="calc-inputs">
+        <div class="input-group">
+          <label for="precioInmueble">Valor del inmueble <span class="hint">(MXN)</span></label>
+          <div class="input-wrap">
+            <span class="currency">$</span>
+            <input type="number" id="precioInmueble" class="has-currency" value="2500000" min="100000" step="50000">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="enganchePct">Enganche <span class="hint">(% del valor)</span></label>
+          <div class="range-row">
+            <input type="range" id="enganchePct" min="5" max="50" value="20" step="1">
+            <span class="range-val" id="enganchePctVal">20%</span>
+          </div>
+          <div class="input-wrap" style="margin-top:.5rem">
+            <span class="currency">$</span>
+            <input type="number" id="engancheMonto" class="has-currency" value="500000" step="10000">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="banco">Banco / Institución</label>
+          <div class="input-wrap">
+            <select id="banco">
+              <option value="custom" data-tasa="10.50" data-cat="12.5">Personalizado (define tasa)</option>
+              <option value="banorte" data-tasa="9.15" data-cat="11.20">Banorte — Hipoteca Tradicional</option>
+              <option value="banregio" data-tasa="9.25" data-cat="11.40">Banregio — InburCasa</option>
+              <option value="inbursa" data-tasa="9.50" data-cat="11.80">Inbursa — CrediResidencial</option>
+              <option value="afirme" data-tasa="9.60" data-cat="11.90">Afirme — Hipoteca Afirme</option>
+              <option value="mifel" data-tasa="9.70" data-cat="12.10">Mifel — Hipoteca Mifel</option>
+              <option value="santander" data-tasa="10.25" data-cat="12.60">Santander — Pago Fijo</option>
+              <option value="scotiabank" data-tasa="10.50" data-cat="12.80">Scotiabank — Hipoteca Fija</option>
+              <option value="hsbc" data-tasa="10.60" data-cat="12.90">HSBC — Hipoteca Fuerte</option>
+              <option value="bbva" data-tasa="11.20" data-cat="13.20">BBVA — Hipoteca Fija</option>
+              <option value="infonavit" data-tasa="10.45" data-cat="11.50">Infonavit — Crédito Tradicional</option>
+              <option value="fovissste" data-tasa="5.00" data-cat="6.20">Fovissste — Crédito Tradicional</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="tasa">Tasa de interés anual <span class="hint">(fija)</span></label>
+          <div class="input-wrap">
+            <input type="number" id="tasa" value="9.15" min="1" max="30" step="0.05">
+            <span class="suffix">% anual</span>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="plazo">Plazo del crédito</label>
+          <div class="range-row">
+            <input type="range" id="plazo" min="5" max="30" value="20" step="1">
+            <span class="range-val" id="plazoVal">20 años</span>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="comision">Comisión por apertura <span class="hint">(% sobre el monto)</span></label>
+          <div class="input-wrap">
+            <input type="number" id="comision" value="1.0" min="0" max="5" step="0.1">
+            <span class="suffix">%</span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="calcular()">Calcular mi hipoteca</button>
+      </div>
+
+      <div class="calc-results" id="resultados">
+        <div class="result-main">
+          <div class="label">Mensualidad estimada</div>
+          <div class="value" id="mensualidad">$0</div>
+          <div class="sub" id="mensualidadSub">Pago fijo a capital + intereses</div>
+        </div>
+
+        <div class="result-row">
+          <div class="result-card">
+            <div class="label">Monto a financiar</div>
+            <div class="value" id="montoFin">$0</div>
+          </div>
+          <div class="result-card">
+            <div class="label">CAT estimado</div>
+            <div class="value accent" id="catVal">0%</div>
+          </div>
+        </div>
+
+        <div class="result-row">
+          <div class="result-card">
+            <div class="label">Total de intereses</div>
+            <div class="value danger" id="totalIntereses">$0</div>
+          </div>
+          <div class="result-card">
+            <div class="label">Total a pagar</div>
+            <div class="value" id="totalPagado">$0</div>
+          </div>
+        </div>
+
+        <div class="result-row">
+          <div class="result-card">
+            <div class="label">Comisión apertura</div>
+            <div class="value" id="comisionMonto">$0</div>
+          </div>
+          <div class="result-card">
+            <div class="label">Pagos totales</div>
+            <div class="value" id="numPagos">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AdSense Slot 1 -->
+<div class="container">
+  <div class="ad-slot no-print">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_PUB_ID" data-ad-slot="YOUR_SLOT_ID_1" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </div>
+</div>
+
+<section id="visualizacion" class="container">
+  <h2>Visualiza tu hipoteca</h2>
+  <p class="lead">Cómo se distribuyen tus pagos a lo largo del plazo del crédito y qué proporción corresponde a capital vs intereses.</p>
+  <div class="chart-grid">
+    <div class="chart-card">
+      <h3>Capital vs Intereses (totales)</h3>
+      <div class="chart-container"><canvas id="chartDistribucion"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Saldo del crédito por año</h3>
+      <div class="chart-container"><canvas id="chartSaldo"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<section id="bancos" class="container">
+  <h2>Comparativa de bancos hipotecarios en México 2026</h2>
+  <p class="lead">Tasas de referencia para perfiles con buen historial crediticio. La tasa que te ofrezcan dependerá de tu enganche, ingresos y buró de crédito. <strong>Compara siempre el CAT</strong>, no solo la tasa nominal.</p>
+  <div class="banks-table-wrap">
+    <table class="banks-table">
+      <thead>
+        <tr>
+          <th>Banco / Producto</th>
+          <th>Tasa fija desde</th>
+          <th>CAT prom.</th>
+          <th>Plazo máx.</th>
+          <th>Enganche mín.</th>
+          <th>Notas</th>
+        </tr>
+      </thead>
+      <tbody id="banksTbody"></tbody>
+    </table>
+  </div>
+  <p class="disclaimer-small">*Tasas y CAT actualizados a abril de 2026 con base en información pública de los bancos. Las condiciones reales dependen del perfil del solicitante. Confirma directamente con la institución antes de contratar.</p>
+</section>
+
+<!-- AdSense Slot 2 -->
+<div class="container">
+  <div class="ad-slot no-print">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_PUB_ID" data-ad-slot="YOUR_SLOT_ID_2" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </div>
+</div>
+
+<section id="gastos" class="container">
+  <h2>Gastos asociados a tu hipoteca</h2>
+  <p class="lead">El precio de la casa es solo una parte. Estos son los costos adicionales que deberás cubrir al firmar tu crédito hipotecario.</p>
+  <div class="costs-grid">
+    <div class="cost-list">
+      <h3>💰 Estimación de gastos de cierre</h3>
+      <div class="cost-row">
+        <div class="name">Avalúo del inmueble<small>$3,000 – $8,000 según valor</small></div>
+        <div class="amount" id="costoAvaluo">$5,500</div>
+      </div>
+      <div class="cost-row">
+        <div class="name">Comisión por apertura<small>0% – 1.5% sobre monto financiado</small></div>
+        <div class="amount" id="costoApertura">$0</div>
+      </div>
+      <div class="cost-row">
+        <div class="name">ISAI / Impuesto traslación<small>2% – 5% según estado</small></div>
+        <div class="amount" id="costoISAI">$0</div>
+      </div>
+      <div class="cost-row">
+        <div class="name">Gastos notariales<small>3% – 7% del valor del inmueble</small></div>
+        <div class="amount" id="costoNotario">$0</div>
+      </div>
+      <div class="cost-row">
+        <div class="name">Inscripción RPP<small>0.5% – 1% del valor</small></div>
+        <div class="amount" id="costoRPP">$0</div>
+      </div>
+      <div class="cost-row">
+        <div class="name">Seguros (vida + daños) año 1<small>~0.5% – 1% del monto</small></div>
+        <div class="amount" id="costoSeguros">$0</div>
+      </div>
+      <div class="cost-total">
+        <span>Total estimado de cierre</span>
+        <span id="costoTotal">$0</span>
+      </div>
+    </div>
+    <div class="cost-list">
+      <h3>📋 Cómo se calcula tu mensualidad</h3>
+      <p style="color:var(--text-light);margin-bottom:1rem">Los bancos mexicanos usan la <strong>fórmula de amortización francesa</strong>, donde cada mensualidad es fija pero la proporción de capital e intereses cambia con el tiempo:</p>
+      <div style="background:#f7f8fa;padding:1rem;border-radius:8px;font-family:'Courier New',monospace;text-align:center;margin-bottom:1rem;font-size:.95rem;line-height:1.8;border:1px solid var(--border)">
+        Pago = P × [r(1+r)<sup>n</sup>] / [(1+r)<sup>n</sup> – 1]
+      </div>
+      <ul style="list-style:none;color:var(--text-light)">
+        <li style="padding:.4rem 0;border-bottom:1px dashed var(--border)"><strong>P</strong> = Monto financiado (precio − enganche)</li>
+        <li style="padding:.4rem 0;border-bottom:1px dashed var(--border)"><strong>r</strong> = Tasa mensual (tasa anual ÷ 12)</li>
+        <li style="padding:.4rem 0;border-bottom:1px dashed var(--border)"><strong>n</strong> = Número total de pagos (años × 12)</li>
+      </ul>
+      <p style="color:var(--text-muted);font-size:.85rem;margin-top:1rem;font-style:italic">Al inicio del crédito, casi toda la mensualidad se va a intereses. Hacia el final, casi toda se va a capital.</p>
+    </div>
+  </div>
+</section>
+
+<section id="amortizacion" class="container">
+  <h2>Tabla de amortización completa</h2>
+  <p class="lead">Cómo evoluciona tu deuda año por año, con el desglose de capital, intereses y saldo restante.</p>
+  <div class="amort-controls">
+    <div>
+      <button class="btn btn-secondary" onclick="toggleAmortView()" id="toggleAmortBtn">Ver mensual</button>
+      <button class="btn btn-secondary" onclick="exportarCSV()">📥 Descargar CSV</button>
+    </div>
+    <div style="color:var(--text-muted);font-size:.9rem">Mostrando vista <span id="amortViewLabel">anual</span></div>
+  </div>
+  <div class="amort-table-wrap">
+    <table class="amort-table">
+      <thead>
+        <tr>
+          <th id="periodoHeader">Año</th>
+          <th>Pago total</th>
+          <th>Capital</th>
+          <th>Intereses</th>
+          <th>Saldo</th>
+        </tr>
+      </thead>
+      <tbody id="amortTbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- AdSense Slot 3 -->
+<div class="container">
+  <div class="ad-slot no-print">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_PUB_ID" data-ad-slot="YOUR_SLOT_ID_3" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </div>
+</div>
+
+<section id="guias" class="articles-section">
+  <div class="container">
+    <h2 style="text-align:center;margin-bottom:.5rem">Guías de crédito hipotecario en México</h2>
+    <p class="lead text-center" style="margin-left:auto;margin-right:auto">Todo lo que necesitas saber antes, durante y después de contratar tu hipoteca.</p>
+
+    <article class="article">
+      <h2>¿Cómo funciona un crédito hipotecario en México?</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 6 min de lectura</span></div>
+      <p>Un crédito hipotecario es un préstamo a largo plazo —típicamente entre 10 y 30 años— que un banco o institución financiera te otorga para adquirir, construir o remodelar una vivienda. A cambio del dinero, el inmueble queda como garantía real del crédito mediante una <strong>hipoteca</strong> inscrita en el Registro Público de la Propiedad. Si dejas de pagar durante un periodo prolongado, el banco puede iniciar un procedimiento judicial para adjudicarse el inmueble y recuperar el dinero prestado.</p>
+      <p>En México, la mayoría de los créditos hipotecarios bancarios se contratan en <strong>pesos a tasa fija</strong>, lo que significa que la tasa de interés permanece igual durante toda la vida del crédito. Esta característica es fundamental porque te protege contra subidas inesperadas en las tasas de referencia (como la TIIE) y te permite saber con certeza cuánto pagarás cada mes durante 20 o 30 años. Algunos bancos también ofrecen tasa variable atada a TIIE, pero esta opción es menos común y generalmente se recomienda solo para perfiles que entienden el riesgo de tasa.</p>
+      <h3>Los componentes principales de tu hipoteca</h3>
+      <p>Cada mensualidad que pagas se compone de cuatro elementos: <strong>capital</strong> (la parte que reduce tu deuda), <strong>intereses</strong> (el costo del dinero prestado), <strong>seguros</strong> (de vida y de daños al inmueble, ambos obligatorios en casi todos los créditos bancarios) y, en algunos casos, una <strong>comisión por administración</strong>. Al inicio del crédito, la proporción de intereses es muy alta —puede ser el 80% o más de la mensualidad—, pero año tras año esa proporción disminuye y el capital amortizado aumenta. Por eso los primeros años no notas mucho avance en el saldo: estás pagando principalmente el costo del dinero, no la deuda.</p>
+      <h3>Plazo, mensualidad y costo total: la triple relación</h3>
+      <p>Existe una relación inversa entre el plazo y la mensualidad: un crédito a 30 años tiene mensualidad más baja que uno a 15 años, pero pagas mucho más en intereses totales. Por ejemplo, un crédito de $2 millones a 10.5% durante 30 años genera mensualidades de aproximadamente $18,300 pero un costo total en intereses de más de $4.6 millones. El mismo crédito a 15 años tendría mensualidades de $22,100 pero el costo total en intereses bajaría a aproximadamente $1.98 millones. <strong>La regla práctica</strong>: contrata el plazo más corto que puedas pagar cómodamente, y considera hacer prepagos anuales si tu situación lo permite.</p>
+    </article>
+
+    <!-- AdSense Slot 4 -->
+    <div class="ad-slot no-print">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_PUB_ID" data-ad-slot="YOUR_SLOT_ID_4" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+    </div>
+
+    <article class="article">
+      <h2>Comparativa 2026: los principales bancos hipotecarios en México</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 8 min de lectura</span></div>
+      <p>El mercado hipotecario mexicano está dominado por seis grandes bancos comerciales —BBVA, Banorte, Santander, HSBC, Scotiabank y Citibanamex— más una serie de bancos medianos y especializados que han ganado terreno en años recientes ofreciendo tasas más competitivas: Inbursa, Banregio, Afirme y Mifel. A esta lista se suman las dos grandes hipotecarias gubernamentales, Infonavit y Fovissste, que conjuntamente son la fuente de financiamiento más importante del país por número de créditos otorgados.</p>
+      <h3>BBVA México: el líder del mercado</h3>
+      <p>Con la mayor cartera hipotecaria del país, BBVA ofrece su producto Hipoteca Fija con tasas que en 2026 inician alrededor de 11.20% para perfiles con buen historial, con un CAT promedio de 13.2%. Aunque su tasa no es la más baja del mercado, BBVA destaca por su plataforma digital robusta, su simulador en línea, descuentos para clientes nómina, y un proceso de precalificación relativamente ágil. Su comisión por contratación se calcula sobre el monto financiado y suele situarse cerca del 1%.</p>
+      <h3>Banorte: tasas competitivas y enfoque en cliente</h3>
+      <p>Banorte ha mantenido una posición agresiva en tasas durante los últimos años, ofreciendo créditos hipotecarios desde 9.15% para perfiles con excelente historial. Su producto principal permite financiar hasta 90%-95% del valor del inmueble en algunos casos, y acepta cofinanciamientos con Infonavit (Cofinavit). Es particularmente atractivo para clientes con ingresos variables o autoempleados.</p>
+      <h3>Santander: la opción Hipoteca Free sin comisiones</h3>
+      <p>Santander ha desarrollado el producto Pago Fijo con tasas desde 10.25% y una variante llamada Hipoteca Free que elimina la comisión por apertura, lo cual representa un ahorro de $20,000 a $30,000 en un crédito promedio. Su CAT ronda el 12.6%. Es una opción muy considerada por compradores primerizos.</p>
+      <h3>HSBC: enfoque en compradores primerizos</h3>
+      <p>HSBC ofrece Hipoteca Fuerte desde 10.60% con condiciones flexibles para autoempleados y profesionistas independientes. Su CAT ronda el 12.9%. Aunque no es el banco con la tasa más baja, su proceso de aprobación tiende a ser más flexible con perfiles que tienen ingresos variables comprobables a través de declaraciones fiscales anuales.</p>
+      <h3>Scotiabank: hasta 95% de financiamiento</h3>
+      <p>Scotiabank Hipoteca Fija inicia en 10.50% con CAT cercano al 12.8% y permite financiamientos altos, lo cual es atractivo para compradores con poco enganche disponible. Sin embargo, financiar más del 80% suele implicar un seguro de garantía adicional que incrementa el costo efectivo del crédito.</p>
+      <h3>Inbursa, Banregio, Afirme y Mifel: las tasas más bajas</h3>
+      <p>Inbursa ofrece CrediResidencial desde 9.50% (con algunas variantes desde 9.90%), Banregio InburCasa desde 9.25%, Afirme desde 9.60% y Mifel desde 9.70%. Estos bancos suelen requerir mayor enganche (15%-20%) y un perfil crediticio sólido, pero a cambio ofrecen las tasas más bajas del mercado mexicano. Para perfiles que califican, el ahorro a 20 años puede ser de varios cientos de miles de pesos comparado con los grandes bancos.</p>
+      <blockquote>La diferencia entre una tasa de 9.50% y una de 11.20% para un crédito de $2 millones a 20 años es de aproximadamente $2,070 mensuales, equivalente a $497,000 a lo largo del plazo. <strong>Comparar bancos no es opcional, es obligatorio.</strong></blockquote>
+    </article>
+
+    <article class="article">
+      <h2>CAT vs Tasa de interés: por qué el CAT es lo único que importa</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 5 min de lectura</span></div>
+      <p>Cuando un banco anuncia su crédito hipotecario, lo primero que ves es la tasa de interés: 9.15%, 10.25%, 11.20%. Es el número grande, llamativo, el que aparece en los anuncios. Pero esa tasa <strong>no representa el costo real</strong> de tu crédito. Para conocerlo necesitas mirar otro indicador: el <strong>CAT (Costo Anual Total)</strong>, una métrica estandarizada por el Banco de México que las instituciones financieras están obligadas a publicar.</p>
+      <h3>¿Qué incluye el CAT y qué no incluye la tasa nominal?</h3>
+      <p>La tasa de interés solo refleja el costo del dinero prestado: cuánto te cobra el banco por la cantidad financiada. El CAT, en cambio, suma además la comisión por apertura, los seguros de vida y daños obligatorios, los gastos administrativos periódicos, y cualquier otro cargo que el banco te cobre durante la vida del crédito, expresándolo todo como una tasa anual equivalente. Por eso siempre verás el CAT más alto que la tasa nominal: 2 a 3 puntos porcentuales arriba es lo normal.</p>
+      <h3>Un ejemplo real que cambia la decisión</h3>
+      <p>Imagina que comparas dos bancos: el Banco A te ofrece tasa nominal de 9.50% pero CAT de 14.2%, mientras que el Banco B ofrece tasa de 10.20% pero CAT de 12.1%. ¿Cuál te conviene? <strong>El Banco B</strong>, aunque parezca contraintuitivo. La diferencia se explica porque el Banco A tiene comisiones, seguros más caros y administración más alta, mientras que el Banco B es más limpio en sus cargos accesorios. Si solo hubieras visto la tasa nominal, habrías tomado la peor decisión.</p>
+      <h3>Cómo usar el CAT para comparar correctamente</h3>
+      <p>Para que la comparación sea válida, el CAT debe calcularse <strong>bajo los mismos supuestos</strong>: mismo monto, mismo plazo, mismo tipo de inmueble. Por eso Banxico estandarizó el cálculo con valores comerciales específicos. Cuando uses simuladores, asegúrate de comparar manzanas con manzanas: introduce los mismos valores de monto, plazo y enganche en cada simulador del banco. El CAT también te permite comparar productos diferentes, como una hipoteca tradicional vs un Cofinavit.</p>
+    </article>
+
+    <article class="article">
+      <h2>Infonavit, Fovissste y Cofinavit: créditos gubernamentales explicados</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 7 min de lectura</span></div>
+      <p>No todos los créditos hipotecarios en México vienen de bancos privados. Las dos grandes hipotecarias gubernamentales —<strong>Infonavit</strong> y <strong>Fovissste</strong>— otorgan más de la mitad de los créditos del país, con condiciones que pueden ser significativamente más accesibles que las bancarias para ciertos perfiles.</p>
+      <h3>Infonavit: para trabajadores del sector privado</h3>
+      <p>El Instituto del Fondo Nacional de la Vivienda para los Trabajadores (Infonavit) atiende a empleados formales del sector privado que cotizan al IMSS. En 2026 el monto máximo del crédito tradicional es de $2,830,672 con una tasa fija de 10.45% y plazo de hasta 30 años. Para acceder al monto máximo necesitas ingresos cercanos a $86,000 mensuales y haber acumulado puntos suficientes (1,080 en el modelo tradicional, o 100 puntos en el nuevo modelo T100 implementado en 2026 que reduce barreras para trabajadores con ingresos bajos y medios).</p>
+      <p>La gran ventaja del Infonavit es que <strong>el pago se descuenta automáticamente de tu nómina</strong>, lo cual reduce drásticamente el riesgo de mora. Además, las aportaciones patronales del 5% del salario también se destinan al pago del crédito, acelerando la amortización. La desventaja es que el monto máximo a veces no alcanza para vivienda media o residencial en zonas urbanas grandes.</p>
+      <h3>Fovissste: para trabajadores del Estado</h3>
+      <p>El Fondo de la Vivienda del ISSSTE (Fovissste) atiende a servidores públicos federales y estatales. Su crédito tradicional ofrece tasas fijas entre 4% y 6% —las más bajas del mercado mexicano— con montos máximos de hasta $1.08 millones MXN o $1.42 millones en UMA. El requisito principal es contar con al menos 18 meses de cotización y no tener un crédito Fovissste vigente.</p>
+      <h3>Cofinavit: cuando el Infonavit no es suficiente</h3>
+      <p>El Cofinavit es un esquema de cofinanciamiento que combina tu crédito Infonavit con un crédito bancario adicional. Tu subcuenta de vivienda funciona como enganche y las aportaciones patronales del 5% se destinan a pagar la parte Infonavit del crédito. Bancos como Banorte, BBVA, HSBC, Santander y Afirme aceptan Cofinavit. Es especialmente útil cuando quieres comprar una vivienda más cara que la que el Infonavit puede financiar por sí solo. La parte bancaria del crédito tiene la tasa que te ofrezca el banco, mientras que la parte Infonavit mantiene la tasa de 10.45%.</p>
+      <h3>Cofinanciamiento Fovissste</h3>
+      <p>Análogo al Cofinavit pero con Fovissste. Permite financiar hasta el 95% del valor de la vivienda combinando el crédito Fovissste con el de un banco. La modalidad Alia2 Plus, por ejemplo, permite a parejas que cotizan ambos en Fovissste sumar capacidades. Hasta octubre de 2025 el programa había formalizado más de 16 mil créditos con derrama económica superior a $23,000 millones de pesos.</p>
+    </article>
+
+    <!-- AdSense Slot 5 -->
+    <div class="ad-slot no-print">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_PUB_ID" data-ad-slot="YOUR_SLOT_ID_5" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+    </div>
+
+    <article class="article">
+      <h2>Gastos ocultos al comprar casa: ISAI, notario, RPP y más</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 6 min de lectura</span></div>
+      <p>Uno de los errores más comunes al planear la compra de una casa en México es ahorrar solo para el enganche. La realidad es que entre <strong>el 8% y el 12% del valor del inmueble</strong> debe destinarse a gastos de cierre que se pagan por una sola vez al firmar la escritura. Para una casa de $2.5 millones, eso son entre $200,000 y $300,000 adicionales al enganche.</p>
+      <h3>ISAI: el impuesto que casi nadie menciona</h3>
+      <p>El Impuesto Sobre Adquisición de Inmuebles (ISAI), también llamado Impuesto de Traslación de Dominio o Impuesto sobre Compraventa, es un impuesto local que varía por estado y municipio. En la Ciudad de México y Estado de México suele rondar el 4.5%-5% del valor catastral. En estados como Querétaro, Jalisco, Nuevo León o Yucatán suele ser entre 2% y 3%. <strong>Es el impuesto más caro de la operación</strong> y debe pagarse en el momento de la firma.</p>
+      <h3>Gastos notariales: 3% a 7% del valor</h3>
+      <p>El notario público es indispensable: prepara y autoriza la escritura, verifica que el inmueble esté libre de gravámenes, calcula los impuestos y presenta la documentación al Registro Público. Sus honorarios suelen estar entre 1% y 2.5% del valor de la operación, pero a esta cifra se suman los derechos de registro, los avisos preventivos, las certificaciones y los testimonios. El total notarial completo suele ser entre 3% y 7% del valor del inmueble.</p>
+      <h3>Inscripción en el Registro Público de la Propiedad</h3>
+      <p>Después de la firma, la escritura debe inscribirse en el Registro Público de la Propiedad (RPP) del estado. Sin este paso, la propiedad legalmente no es tuya frente a terceros. El costo varía por entidad federativa entre 0.5% y 1% del valor del inmueble.</p>
+      <h3>Avalúo y comisiones bancarias</h3>
+      <p>El banco te pedirá un avalúo realizado por un perito autorizado, con costo de $3,000 a $8,000 según el valor del inmueble. La comisión por apertura del crédito puede ser de 0% a 1.5% sobre el monto financiado, aunque varios bancos la han eliminado en sus productos promocionales. Adicionalmente, deberás pagar el primer año de los seguros obligatorios de vida y daños al inmueble, que típicamente representan entre 0.5% y 1% del monto del crédito.</p>
+      <blockquote>Resumen práctico: para una casa de $2,500,000 con 20% de enganche ($500,000), necesitas tener listos aproximadamente $200,000-$300,000 adicionales para gastos de cierre. <strong>No firmes nada si no tienes este dinero asegurado.</strong></blockquote>
+    </article>
+
+    <article class="article">
+      <h2>Cómo conseguir la mejor tasa hipotecaria: 7 estrategias prácticas</h2>
+      <div class="article-meta"><span>📅 Actualizado abril 2026</span><span>⏱️ 6 min de lectura</span></div>
+      <p>La tasa que un banco te ofrece no es un precio fijo: es el resultado de evaluar tu perfil de riesgo. Mientras menos riesgo represente prestarte dinero, menor será la tasa. Estas siete estrategias pueden ayudarte a bajar tu tasa entre 0.5 y 2 puntos porcentuales, lo cual a 20 años significa decenas o cientos de miles de pesos en intereses ahorrados.</p>
+      <ol>
+        <li><strong>Limpia tu buró de crédito antes de aplicar.</strong> Cualquier atraso reciente en tarjetas, préstamos o servicios financieros puede subir tu tasa significativamente o incluso resultar en rechazo. Solicita tu reporte gratuito una vez al año en burodecredito.com.mx y resuelve cualquier inconsistencia.</li>
+        <li><strong>Aumenta tu enganche al 20% o más.</strong> Cuando aportas más enganche, el banco asume menos riesgo y te ofrece mejor tasa. La diferencia entre 10% y 20% de enganche puede ser de 0.5 a 1 punto porcentual en la tasa.</li>
+        <li><strong>Cotiza con al menos 4 bancos en paralelo.</strong> No te conformes con la primera oferta. Bancos como Inbursa, Banregio o Mifel suelen ofrecer tasas significativamente más bajas que los grandes bancos para perfiles sólidos. Solicita ofertas formales por escrito y compáralas usando el CAT.</li>
+        <li><strong>Aprovecha los descuentos para clientes nómina.</strong> Si recibes tu nómina en BBVA, Banorte, Santander, HSBC o Scotiabank, casi todos ofrecen reducciones de 0.25 a 0.75 puntos en la tasa. Considera mover tu nómina temporalmente al banco que te dará el crédito.</li>
+        <li><strong>Negocia eliminación de comisión por apertura.</strong> En 2026 varios bancos eliminan esta comisión en sus campañas. Si tu banco no lo ofrece de inicio, pídelo: en muchos casos lo conceden para no perder al cliente.</li>
+        <li><strong>Considera Cofinavit si calificas.</strong> Combinar tu crédito Infonavit con un bancario suele dar tasas mixtas mejores que un crédito 100% bancario. Tu subcuenta de vivienda funciona como enganche extra y las aportaciones patronales pagan parte del crédito automáticamente.</li>
+        <li><strong>Comprueba ingresos sólidos y antigüedad laboral.</strong> Los bancos prefieren empleados con más de dos años en la misma empresa o autoempleados con declaraciones fiscales sólidas de los últimos dos ejercicios. Si planeas cambiar de trabajo, hazlo después de firmar el crédito, no antes.</li>
+      </ol>
+    </article>
+  </div>
+</section>
+
+<section id="faq" class="container">
+  <h2>Preguntas frecuentes sobre crédito hipotecario en México</h2>
+  <p class="lead">Las dudas más comunes de quienes están por contratar su primera hipoteca.</p>
+
+  <details class="faq-item" open>
+    <summary class="faq-q">¿Cuánto debo ganar para que un banco me apruebe un crédito hipotecario?</summary>
+    <div class="faq-a">La regla general es que la mensualidad del crédito no debe exceder el 30%-35% de tu ingreso mensual comprobable. Para una mensualidad típica de $20,000 (crédito de aprox. $2 millones a 10.5% por 20 años), necesitarías ingresos comprobables de al menos $58,000 mensuales. Los autoempleados deben presentar declaraciones fiscales de los últimos dos ejercicios.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Cuánto tarda en aprobarse y formalizarse un crédito hipotecario?</summary>
+    <div class="faq-a">El proceso completo toma entre 4 y 8 semanas: precalificación (1-2 días), solicitud formal (1 semana), avalúo del inmueble (5-10 días hábiles), autorización final del comité de crédito (1-2 semanas), firma de escrituras y registro (1-2 semanas). Tener todos los documentos completos desde el inicio acelera significativamente el proceso.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Qué documentos necesito para solicitar una hipoteca?</summary>
+    <div class="faq-a">Identificación oficial vigente (INE/pasaporte), CURP, RFC con constancia de situación fiscal, comprobante de domicilio reciente, últimos 3 a 6 recibos de nómina o declaraciones anuales y parciales si eres autoempleado, estados de cuenta bancarios de los últimos 3 meses, y acta de matrimonio si aplica. Para el inmueble: avalúo, escrituras vigentes, predial al corriente y constancia de no adeudo de agua.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Puedo hacer pagos anticipados sin penalización?</summary>
+    <div class="faq-a">Sí. La Ley para la Transparencia y Ordenamiento de los Servicios Financieros prohíbe a los bancos cobrar penalizaciones por pago anticipado en créditos hipotecarios contratados después de 2008. Los prepagos se aplican directamente al capital, lo cual reduce el plazo o la mensualidad según prefieras. Hacer prepagos en los primeros años del crédito es donde generan el mayor ahorro en intereses.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Qué es la portabilidad hipotecaria y cuándo conviene?</summary>
+    <div class="faq-a">La portabilidad permite mover tu crédito hipotecario de un banco a otro sin penalización, generalmente para aprovechar una mejor tasa. Conviene cuando tu tasa actual está 2 o más puntos arriba del mercado, ya que los costos de la portabilidad (avalúo nuevo, gastos notariales reducidos, comisión administrativa) suelen recuperarse en 2-3 años. Bancos como BBVA, Santander y Banorte compiten activamente por captar clientes vía portabilidad.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Los intereses de la hipoteca son deducibles de impuestos?</summary>
+    <div class="faq-a">Sí. Los intereses reales (ajustados por inflación) pagados sobre créditos hipotecarios para casa habitación son deducibles en tu declaración anual de personas físicas, hasta cierto límite. El banco te entrega anualmente una constancia con el monto deducible. Es una deducción significativa, especialmente en los primeros años cuando los intereses son altos.</div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">¿Conviene tasa fija o variable en una hipoteca mexicana?</summary>
+    <div class="faq-a">En México la mayoría de los expertos recomiendan tasa fija porque ofrece certeza durante todo el plazo del crédito. La tasa variable se ajusta con la TIIE y aunque puede iniciar más baja, sube cuando Banxico eleva la tasa de referencia, lo cual encarece la mensualidad. Solo considera tasa variable si planeas liquidar el crédito en menos de 5 años.</div>
+  </details>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <div class="logo" style="margin-bottom:1rem">
+        <div class="logo-icon">H</div>
+        <span>HipotecaPath<span style="color:var(--accent);font-weight:400">.mx</span></span>
+      </div>
+      <p style="font-size:.9rem;color:rgba(255,255,255,0.7);max-width:400px">Calculadora hipotecaria gratuita y herramientas para tomar mejores decisiones financieras al adquirir tu vivienda en México.</p>
+      <div class="disclaimer">
+        <strong>Aviso importante:</strong> HipotecaPath es una herramienta informativa. Las tasas, CAT y montos mostrados son estimaciones de referencia y no constituyen una oferta de crédito. Las condiciones reales dependen de tu perfil y son determinadas por cada institución financiera. Antes de contratar, consulta directamente con el banco y revisa el contrato. No somos asesores financieros y no ofrecemos productos financieros.
+      </div>
+    </div>
+    <div>
+      <h4>Calculadoras</h4>
+      <ul>
+        <li><a href="#calculadora">Mensualidad hipotecaria</a></li>
+        <li><a href="#gastos">Gastos de cierre</a></li>
+        <li><a href="#amortizacion">Tabla de amortización</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Recursos</h4>
+      <ul>
+        <li><a href="#bancos">Comparativa de bancos</a></li>
+        <li><a href="#guias">Guías de hipoteca</a></li>
+        <li><a href="#faq">Preguntas frecuentes</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright container">
+    © 2026 HipotecaPath.mx · Información de referencia. Confirma siempre con la institución financiera. Hecho en México 🇲🇽
+  </div>
+</footer>
+
+<script>
+// ===== Estado y datos =====
+const banks = [
+  {nombre:'Banorte',producto:'Hipoteca Tradicional',tasa:9.15,cat:11.20,plazo:'20 años',enganche:'10%',notas:'Acepta Cofinavit. Descuento clientes nómina.'},
+  {nombre:'Banregio',producto:'InburCasa',tasa:9.25,cat:11.40,plazo:'20 años',enganche:'15%',notas:'Tasas competitivas para perfil sólido.'},
+  {nombre:'Inbursa',producto:'CrediResidencial',tasa:9.50,cat:11.80,plazo:'20 años',enganche:'20%',notas:'Una de las tasas más bajas del mercado.'},
+  {nombre:'Afirme',producto:'Hipoteca Afirme',tasa:9.60,cat:11.90,plazo:'20 años',enganche:'15%',notas:'Atención personalizada en regiones del norte.'},
+  {nombre:'Mifel',producto:'Hipoteca Mifel',tasa:9.70,cat:12.10,plazo:'20 años',enganche:'15%',notas:'Banca privada y patrimonial.'},
+  {nombre:'Santander',producto:'Pago Fijo / Hipoteca Free',tasa:10.25,cat:12.60,plazo:'20 años',enganche:'10%',notas:'Hipoteca Free sin comisión por apertura.'},
+  {nombre:'Scotiabank',producto:'Hipoteca Fija',tasa:10.50,cat:12.80,plazo:'25 años',enganche:'5%',notas:'Hasta 95% de financiamiento.'},
+  {nombre:'HSBC',producto:'Hipoteca Fuerte',tasa:10.60,cat:12.90,plazo:'20 años',enganche:'10%',notas:'Flexible con ingresos variables.'},
+  {nombre:'BBVA México',producto:'Hipoteca Fija',tasa:11.20,cat:13.20,plazo:'20 años',enganche:'10%',notas:'Mayor cartera del país. Plataforma digital robusta.'},
+  {nombre:'Infonavit',producto:'Crédito Tradicional / T100',tasa:10.45,cat:11.50,plazo:'30 años',enganche:'subcuenta',notas:'Monto máx. $2.83M. Modelo T100 desde 2026.'},
+  {nombre:'Fovissste',producto:'Crédito Tradicional',tasa:5.00,cat:6.20,plazo:'30 años',enganche:'subcuenta',notas:'Tasas 4%-6%. Solo trabajadores del Estado.'}
+];
+
+let amortViewMode = 'anual';
+let amortizacion = [];
+let chartDist = null, chartSaldo = null;
+
+// ===== Render bancos =====
+function renderBanks(){
+  const tbody = document.getElementById('banksTbody');
+  tbody.innerHTML = banks.map(b => `
+    <tr>
+      <td><span class="bank-name">${b.nombre}</span><span class="bank-product">${b.producto}</span></td>
+      <td><span class="tasa-badge">${b.tasa.toFixed(2)}%</span></td>
+      <td><span class="cat-badge">${b.cat.toFixed(1)}%</span></td>
+      <td>${b.plazo}</td>
+      <td>${b.enganche}</td>
+      <td style="color:var(--text-light);font-size:.88rem">${b.notas}</td>
+    </tr>
+  `).join('');
+}
+
+// ===== Helpers =====
+const fmt = n => '$' + Math.round(n).toLocaleString('es-MX');
+const fmtFull = n => '$' + n.toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+// ===== Sync inputs =====
+function syncEnganche(source){
+  const precio = +document.getElementById('precioInmueble').value || 0;
+  const pctEl = document.getElementById('enganchePct');
+  const montoEl = document.getElementById('engancheMonto');
+  if(source === 'pct'){
+    montoEl.value = Math.round(precio * pctEl.value / 100);
+  } else if(source === 'monto'){
+    if(precio>0) pctEl.value = Math.min(50,Math.max(5,Math.round(montoEl.value*100/precio)));
+  } else if(source === 'precio'){
+    montoEl.value = Math.round(precio * pctEl.value / 100);
+  }
+  document.getElementById('enganchePctVal').textContent = pctEl.value + '%';
+}
+
+function syncBanco(){
+  const sel = document.getElementById('banco');
+  const opt = sel.options[sel.selectedIndex];
+  if(sel.value !== 'custom'){
+    document.getElementById('tasa').value = opt.dataset.tasa;
+  }
+}
+
+// ===== Cálculo principal =====
+function calcular(){
+  const precio = +document.getElementById('precioInmueble').value || 0;
+  const enganche = +document.getElementById('engancheMonto').value || 0;
+  const monto = Math.max(0, precio - enganche);
+  const tasaAnual = +document.getElementById('tasa').value / 100;
+  const plazoAnios = +document.getElementById('plazo').value;
+  const comisionPct = +document.getElementById('comision').value / 100;
+  const banco = document.getElementById('banco').value;
+  const opt = document.getElementById('banco').options[document.getElementById('banco').selectedIndex];
+  const catEstimado = banco !== 'custom' ? +opt.dataset.cat : (tasaAnual*100 + 2.3);
+
+  if(monto <= 0 || tasaAnual <= 0 || plazoAnios <= 0){
+    alert('Verifica los datos ingresados.');
+    return;
+  }
+
+  const r = tasaAnual / 12;
+  const n = plazoAnios * 12;
+  const pago = (monto * r * Math.pow(1+r,n)) / (Math.pow(1+r,n) - 1);
+  const totalPagado = pago * n;
+  const totalIntereses = totalPagado - monto;
+  const comisionMonto = monto * comisionPct;
+
+  // Render resultados
+  document.getElementById('mensualidad').textContent = fmt(pago);
+  document.getElementById('mensualidadSub').textContent = `Por ${n} pagos durante ${plazoAnios} años`;
+  document.getElementById('montoFin').textContent = fmt(monto);
+  document.getElementById('catVal').textContent = catEstimado.toFixed(2) + '%';
+  document.getElementById('totalIntereses').textContent = fmt(totalIntereses);
+  document.getElementById('totalPagado').textContent = fmt(totalPagado);
+  document.getElementById('comisionMonto').textContent = fmt(comisionMonto);
+  document.getElementById('numPagos').textContent = n + ' pagos';
+
+  // Generar amortización mensual
+  amortizacion = [];
+  let saldo = monto;
+  for(let i = 1; i <= n; i++){
+    const interesMes = saldo * r;
+    const capitalMes = pago - interesMes;
+    saldo = Math.max(0, saldo - capitalMes);
+    amortizacion.push({periodo: i, pago, capital: capitalMes, interes: interesMes, saldo});
+  }
+
+  renderAmortizacion();
+  renderCharts(monto, totalIntereses, plazoAnios);
+  renderCostos(precio, monto, comisionMonto);
+}
+
+// ===== Costos =====
+function renderCostos(precio, monto, comision){
+  const avaluo = Math.min(8000, Math.max(3000, precio * 0.0025));
+  const isai = precio * 0.04; // promedio nacional ~4%
+  const notario = precio * 0.05;
+  const rpp = precio * 0.0075;
+  const seguros = monto * 0.0075;
+  const total = avaluo + comision + isai + notario + rpp + seguros;
+  document.getElementById('costoAvaluo').textContent = fmt(avaluo);
+  document.getElementById('costoApertura').textContent = fmt(comision);
+  document.getElementById('costoISAI').textContent = fmt(isai);
+  document.getElementById('costoNotario').textContent = fmt(notario);
+  document.getElementById('costoRPP').textContent = fmt(rpp);
+  document.getElementById('costoSeguros').textContent = fmt(seguros);
+  document.getElementById('costoTotal').textContent = fmt(total);
+}
+
+// ===== Tabla de amortización =====
+function renderAmortizacion(){
+  const tbody = document.getElementById('amortTbody');
+  document.getElementById('periodoHeader').textContent = amortViewMode === 'anual' ? 'Año' : 'Mes';
+  document.getElementById('amortViewLabel').textContent = amortViewMode;
+  document.getElementById('toggleAmortBtn').textContent = amortViewMode === 'anual' ? 'Ver mensual' : 'Ver anual';
+
+  let rows;
+  if(amortViewMode === 'anual'){
+    rows = [];
+    const anios = Math.ceil(amortizacion.length / 12);
+    for(let y = 1; y <= anios; y++){
+      const mesesEnAnio = amortizacion.slice((y-1)*12, y*12);
+      const pagoTotal = mesesEnAnio.reduce((s,m)=>s+m.pago,0);
+      const capital = mesesEnAnio.reduce((s,m)=>s+m.capital,0);
+      const interes = mesesEnAnio.reduce((s,m)=>s+m.interes,0);
+      const saldo = mesesEnAnio[mesesEnAnio.length-1].saldo;
+      rows.push({periodo: y, pago: pagoTotal, capital, interes, saldo});
+    }
+  } else {
+    rows = amortizacion;
+  }
+
+  tbody.innerHTML = rows.map(r => `
+    <tr>
+      <td>${r.periodo}</td>
+      <td>${fmtFull(r.pago)}</td>
+      <td>${fmtFull(r.capital)}</td>
+      <td style="color:var(--danger)">${fmtFull(r.interes)}</td>
+      <td style="font-weight:600">${fmtFull(r.saldo)}</td>
+    </tr>
+  `).join('');
+}
+
+function toggleAmortView(){
+  amortViewMode = amortViewMode === 'anual' ? 'mensual' : 'anual';
+  renderAmortizacion();
+}
+
+// ===== Exportar CSV =====
+function exportarCSV(){
+  if(amortizacion.length === 0){ alert('Calcula tu hipoteca primero.'); return; }
+  let csv = 'Mes,Pago,Capital,Intereses,Saldo\n';
+  amortizacion.forEach(r => {
+    csv += `${r.periodo},${r.pago.toFixed(2)},${r.capital.toFixed(2)},${r.interes.toFixed(2)},${r.saldo.toFixed(2)}\n`;
+  });
+  const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'amortizacion_hipotecapath.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ===== Charts =====
+function renderCharts(monto, intereses, anios){
+  if(chartDist) chartDist.destroy();
+  if(chartSaldo) chartSaldo.destroy();
+
+  const ctx1 = document.getElementById('chartDistribucion');
+  chartDist = new Chart(ctx1, {
+    type: 'doughnut',
+    data: {
+      labels: ['Capital', 'Intereses'],
+      datasets: [{
+        data: [monto, intereses],
+        backgroundColor: ['#1e3a5f','#d4a843'],
+        borderWidth: 0
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {position: 'bottom'},
+        tooltip: {
+          callbacks: {
+            label: (ctx) => ctx.label + ': ' + fmt(ctx.raw)
+          }
+        }
+      }
+    }
+  });
+
+  // Saldo por año
+  const labels = ['Inicio'];
+  const datos = [monto];
+  for(let y = 1; y <= anios; y++){
+    const idx = y * 12 - 1;
+    if(idx < amortizacion.length){
+      labels.push('Año ' + y);
+      datos.push(amortizacion[idx].saldo);
+    }
+  }
+
+  const ctx2 = document.getElementById('chartSaldo');
+  chartSaldo = new Chart(ctx2, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Saldo del crédito',
+        data: datos,
+        borderColor: '#1e3a5f',
+        backgroundColor: 'rgba(30,58,95,0.1)',
+        fill: true,
+        tension: 0.2,
+        pointBackgroundColor: '#d4a843',
+        pointRadius: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {display: false},
+        tooltip: {
+          callbacks: {
+            label: (ctx) => 'Saldo: ' + fmt(ctx.raw)
+          }
+        }
+      },
+      scales: {
+        y: {
+          ticks: {
+            callback: v => '$' + (v/1000000).toFixed(1) + 'M'
+          }
+        }
+      }
+    }
+  });
+}
+
+// ===== Eventos =====
+document.getElementById('precioInmueble').addEventListener('input', () => syncEnganche('precio'));
+document.getElementById('enganchePct').addEventListener('input', () => syncEnganche('pct'));
+document.getElementById('engancheMonto').addEventListener('input', () => syncEnganche('monto'));
+document.getElementById('plazo').addEventListener('input', e => {
+  document.getElementById('plazoVal').textContent = e.target.value + ' años';
+});
+document.getElementById('banco').addEventListener('change', syncBanco);
+
+// Auto-recalcular en cambios
+['precioInmueble','engancheMonto','enganchePct','tasa','plazo','comision','banco'].forEach(id => {
+  document.getElementById(id).addEventListener('change', () => calcular());
+});
+
+// Init
+renderBanks();
+calcular();
+</script>
+
+</body>
+</html>

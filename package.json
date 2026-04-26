@@ -1,0 +1,23 @@
+{
+  "name": "hipotecapath",
+  "version": "1.0.0",
+  "description": "Calculadora hipotecaria México 2026 con comparativa de bancos y guías financieras",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "keywords": [
+    "calculadora",
+    "hipoteca",
+    "mexico",
+    "creditos",
+    "finanzas"
+  ],
+  "license": "MIT"
+}
